@@ -403,6 +403,39 @@ export default function Home() {
     }
   };
 
+  const getGeographicHotspots = () => {
+    const cityCounts: { [key: string]: number } = {};
+    dossiers.forEach((d) => {
+      (d.history || []).forEach((h: any) => {
+        if (h.return_date && h.city) {
+          const cityClean = h.city.trim();
+          cityCounts[cityClean] = (cityCounts[cityClean] || 0) + 1;
+        }
+      });
+    });
+
+    const sortedCities = Object.entries(cityCounts)
+      .map(([city, count]) => {
+        let risk = "LOW RISK";
+        let color = "#10b981";
+        if (count >= 5) {
+          risk = "HIGH RISK";
+          color = "var(--color-accent-coral)";
+        } else if (count >= 2) {
+          risk = "MEDIUM RISK";
+          color = "var(--color-accent-yellow)";
+        }
+        return { city, count, risk, color };
+      })
+      .sort((a, b) => b.count - a.count);
+
+    const maxCount = sortedCities.length > 0 ? sortedCities[0].count : 1;
+    return sortedCities.map((c) => ({
+      ...c,
+      pct: Math.round((c.count / maxCount) * 100)
+    }));
+  };
+
   const formatUnderscoreText = (text: string) => {
     if (!text) return "";
     return text
@@ -968,22 +1001,23 @@ export default function Home() {
                         Real-time tracking of returns clustered by geographic origin to isolate coordinated courier-looping fraud.
                       </p>
                       <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-                        {[
-                          { city: "Jaipur (Rajasthan)", count: 6, risk: "HIGH RISK", color: "var(--color-accent-coral)", pct: 100 },
-                          { city: "Surat (Gujarat)", count: 2, risk: "MEDIUM RISK", color: "var(--color-accent-yellow)", pct: 60 },
-                          { city: "Mumbai (Maharashtra)", count: 3, risk: "MEDIUM RISK", color: "var(--color-accent-yellow)", pct: 45 },
-                          { city: "Kolkata (West Bengal)", count: 3, risk: "LOW RISK", color: "#10b981", pct: 20 }
-                        ].map((h, i) => (
-                          <div key={i} style={{ fontSize: "12px" }}>
-                            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "4px", fontWeight: "600" }}>
-                              <span>{h.city}</span>
-                              <span style={{ color: h.color }}>{h.count} returns ({h.risk})</span>
+                        {getGeographicHotspots().length === 0 ? (
+                          <p style={{ color: "var(--text-secondary)", fontSize: "12px", fontStyle: "italic", textAlign: "center", padding: "16px" }}>
+                            No geographic data calculated yet. Upload returns logs to plot hotspots.
+                          </p>
+                        ) : (
+                          getGeographicHotspots().map((h, i) => (
+                            <div key={i} style={{ fontSize: "12px" }}>
+                              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "4px", fontWeight: "600" }}>
+                                <span>{h.city}</span>
+                                <span style={{ color: h.color }}>{h.count} {h.count === 1 ? "return" : "returns"} ({h.risk})</span>
+                              </div>
+                              <div style={{ width: "100%", height: "6px", background: "#f1f5f9", borderRadius: "3px", overflow: "hidden" }}>
+                                <div style={{ width: `${h.pct}%`, height: "100%", background: h.color, borderRadius: "3px" }} />
+                              </div>
                             </div>
-                            <div style={{ width: "100%", height: "6px", background: "#f1f5f9", borderRadius: "3px", overflow: "hidden" }}>
-                              <div style={{ width: `${h.pct}%`, height: "100%", background: h.color, borderRadius: "3px" }} />
-                            </div>
-                          </div>
-                        ))}
+                          ))
+                        )}
                       </div>
                     </div>
                   </div>
