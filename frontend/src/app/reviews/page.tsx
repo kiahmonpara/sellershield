@@ -501,23 +501,27 @@ export default function ReviewsPage() {
                   </div>
                 </div>
 
-                <div className="gauge-container" style={{ width: "120px", height: "120px", marginTop: 0 }}>
-                  <svg className="gauge-svg">
-                    <circle className="gauge-bg" cx="60" cy="60" r="48" />
-                    <circle 
-                      className="gauge-fill" 
-                      cx="60" 
-                      cy="60" 
-                      r="48" 
-                      style={{ 
-                        strokeDasharray: "301.6",
-                        strokeDashoffset: 301.6 - (301.6 * analysisResult.overall_authenticity_score) / 100,
-                        stroke: analysisResult.verdict === "TRUSTWORTHY" ? "#10b981" : analysisResult.verdict === "SUSPICIOUS" ? "#f9bf29" : "#ea6556"
-                      }} 
-                    />
-                  </svg>
-                  <span className="gauge-center-text">{analysisResult.overall_authenticity_score}%</span>
-                  <span style={{ fontSize: "9px", color: "var(--text-secondary)", marginTop: "4px" }}>Authenticity</span>
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                  <div className="gauge-container" style={{ width: "120px", height: "120px", marginTop: 0, position: "relative" }}>
+                    <svg className="gauge-svg">
+                      <circle className="gauge-bg" cx="60" cy="60" r="48" />
+                      <circle 
+                        className="gauge-fill" 
+                        cx="60" 
+                        cy="60" 
+                        r="48" 
+                        style={{ 
+                          strokeDasharray: "301.6",
+                          strokeDashoffset: 301.6 - (301.6 * analysisResult.overall_authenticity_score) / 100,
+                          stroke: analysisResult.verdict === "TRUSTWORTHY" ? "#10b981" : analysisResult.verdict === "SUSPICIOUS" ? "#f9bf29" : "#ea6556"
+                        }} 
+                      />
+                    </svg>
+                    <span className="gauge-center-text" style={{ fontSize: "20px", fontWeight: "800", position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}>
+                      {analysisResult.overall_authenticity_score}%
+                    </span>
+                  </div>
+                  <span style={{ fontSize: "11px", fontWeight: "600", color: "var(--text-secondary)", marginTop: "4px" }}>Authenticity</span>
                 </div>
               </div>
 
