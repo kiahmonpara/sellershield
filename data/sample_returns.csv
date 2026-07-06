@@ -5,14 +5,14 @@ ORD002,C001,Aarav Sharma,2026-06-15,2200,,,0,0,Amazon,Delhi,12/A Saket New Delhi
 ORD003,C002,Diya Patel,2026-06-05,2500,,,0,0,Myntra,Bangalore,54 Koramangala Bangalore,prepaid,ITM004,CloudWalk Sneakers
 ORD003,C002,Diya Patel,2026-06-05,2500,,,0,0,Myntra,Bangalore,54 Koramangala Bangalore,prepaid,ITM005,LaceUp Reflective Laces
 ORD004,C003,Amit Verma,2026-06-10,3200,2026-06-12,not_as_pictured,650,650,Flipkart,Hyderabad,A-401 Jubilee Hills Hyderabad,prepaid,ITM006,TrailBlazer Hiking Shoes
-ORD005,C004,Rajesh Kumar,2026-06-10,4500,2026-06-12,sole_defect,500,500,Flipkart,Pune,Flat 202 Green Glen Pune,prepaid,ITM007,Elite Runner Pro
-ORD006,C004,Rajesh Kumar,2026-06-13,1800,2026-06-14,size_issue,200,200,Amazon,Pune,Flat 202 Green Glen Pune,prepaid,ITM008,CloudWalk Sneakers
-ORD007,C004,Rajesh Kumar,2026-06-16,3500,2026-06-18,sole_defect,600,600,Meesho,Pune,Flat 202 Green Glen Pune,COD,ITM009,TrailBlazer Hiking Shoes
-ORD008,C004,Rajesh Kumar,2026-06-20,2900,2026-06-22,sole_defect,450,450,Flipkart,Pune,Flat 202 Green Glen Pune,prepaid,ITM010,OrthoPro Insoles
-ORD009,C004,Rajesh Kumar,2026-06-22,1200,2026-06-23,not_as_pictured,150,150,Meesho,Pune,Flat 202 Green Glen Pune,COD,ITM011,StrideClean Spray
-ORD010,C004,Rajesh Kumar,2026-06-25,3800,2026-06-27,color_mismatch,400,400,Amazon,Pune,Flat 202 Green Glen Pune,prepaid,ITM012,LaceUp Reflective Laces
-ORD011,C007,Vikram Singh,2026-06-11,8700,2026-06-13,sole_defect,180,920,Amazon,Delhi,Sector 15 Rohini Delhi,prepaid,ITM101,Elite Runner Pro
-ORD011,C007,Vikram Singh,2026-06-11,8700,,,0,0,Amazon,Delhi,Sector 15 Rohini Delhi,prepaid,ITM102,StrideClean Spray
+ORD005,C004,Rohit Kumar,2026-06-10,4500,2026-06-12,sole_defect,500,500,Flipkart,Jaipur,Flat 202 Green Glen Jaipur,prepaid,ITM007,Elite Runner Pro
+ORD006,C004,Rohit Kumar,2026-06-13,1800,2026-06-14,size_issue,200,200,Amazon,Jaipur,Flat 202 Green Glen Jaipur,prepaid,ITM008,CloudWalk Sneakers
+ORD007,C004,Rohit Kumar,2026-06-16,3500,2026-06-18,sole_defect,600,600,Meesho,Jaipur,Flat 202 Green Glen Jaipur,COD,ITM009,TrailBlazer Hiking Shoes
+ORD008,C004,Rohit Kumar,2026-06-20,2900,2026-06-22,sole_defect,450,450,Flipkart,Jaipur,Flat 202 Green Glen Jaipur,prepaid,ITM010,OrthoPro Insoles
+ORD009,C004,Rohit Kumar,2026-06-22,1200,2026-06-23,not_as_pictured,150,150,Meesho,Jaipur,Flat 202 Green Glen Jaipur,COD,ITM011,StrideClean Spray
+ORD010,C004,Rohit Kumar,2026-06-25,3800,2026-06-27,color_mismatch,400,400,Amazon,Jaipur,Flat 202 Green Glen Jaipur,prepaid,ITM012,LaceUp Reflective Laces
+ORD011,C007,Vikram Singh,2026-06-11,8700,2026-06-13,sole_defect,180,920,Amazon,Surat,Sector 15 Rohini Surat,prepaid,ITM101,Elite Runner Pro
+ORD011,C007,Vikram Singh,2026-06-11,8700,,,0,0,Amazon,Surat,Sector 15 Rohini Surat,prepaid,ITM102,StrideClean Spray
 ORD012,C012a,Siddharth Roy,2026-06-12,4500,2026-06-14,sole_defect,800,800,Flipkart,Mumbai,Flat 402 Shiv Shakti Bandra Mumbai,prepaid,ITM201,CloudWalk Sneakers
 ORD013,C012b,Rohan Roy,2026-06-13,4500,2026-06-15,sole_defect,800,800,Flipkart,Mumbai,Fl 402 Shiv Shakti Apts Bandra Mumbai,prepaid,ITM201,CloudWalk Sneakers
 ORD014,C012c,Neha Roy,2026-06-14,4500,2026-06-16,sole_defect,800,800,Flipkart,Mumbai,402 Shiv Shakti Bandra Mumbai,prepaid,ITM201,CloudWalk Sneakers

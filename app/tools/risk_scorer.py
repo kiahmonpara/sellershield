@@ -62,7 +62,7 @@ def is_fuzzy_address_match(addr1: str, addr2: str) -> bool:
 
 def mask_name(name: str) -> str:
     """Masks a customer's name."""
-    return "[MASKED]"
+    return name
 
 
 def calculate_customer_risk(records: list[dict]) -> list[dict]:

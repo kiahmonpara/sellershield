@@ -958,6 +958,34 @@ export default function Home() {
                         <div style={{ width: "68%", height: "100%", background: "var(--bg-card-dark)" }} />
                       </div>
                     </div>
+
+                    <div className="card-standard">
+                      <div className="card-title" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                        <span>📍 Geographic Return Hotspots</span>
+                        <span style={{ fontSize: "9px", background: "rgba(234, 101, 86, 0.1)", color: "var(--color-accent-coral)", padding: "2px 8px", borderRadius: "8px", fontWeight: "bold" }}>UPDATED</span>
+                      </div>
+                      <p style={{ fontSize: "11px", color: "var(--text-secondary)", marginBottom: "16px", lineHeight: "1.4" }}>
+                        Real-time tracking of returns clustered by geographic origin to isolate coordinated courier-looping fraud.
+                      </p>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                        {[
+                          { city: "Jaipur (Rajasthan)", count: 6, risk: "HIGH RISK", color: "var(--color-accent-coral)", pct: 100 },
+                          { city: "Surat (Gujarat)", count: 2, risk: "MEDIUM RISK", color: "var(--color-accent-yellow)", pct: 60 },
+                          { city: "Mumbai (Maharashtra)", count: 3, risk: "MEDIUM RISK", color: "var(--color-accent-yellow)", pct: 45 },
+                          { city: "Kolkata (West Bengal)", count: 3, risk: "LOW RISK", color: "#10b981", pct: 20 }
+                        ].map((h, i) => (
+                          <div key={i} style={{ fontSize: "12px" }}>
+                            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "4px", fontWeight: "600" }}>
+                              <span>{h.city}</span>
+                              <span style={{ color: h.color }}>{h.count} returns ({h.risk})</span>
+                            </div>
+                            <div style={{ width: "100%", height: "6px", background: "#f1f5f9", borderRadius: "3px", overflow: "hidden" }}>
+                              <div style={{ width: `${h.pct}%`, height: "100%", background: h.color, borderRadius: "3px" }} />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
                   </div>
 
                   {/* Right Column: Flagged profiles checklist */}

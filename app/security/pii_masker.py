@@ -55,7 +55,7 @@ def mask_dict_pii(data: dict) -> dict:
         # Redact names if they match customer identifiers directly
         elif isinstance(v, str):
             if k in ["customer_name", "name"] and v != "[MASKED]":
-                masked_data[k] = "[MASKED]"
+                masked_data[k] = v
             else:
                 masked_data[k] = mask_text_pii(v)
         else:

@@ -74,7 +74,7 @@ class ReviewsOrchestrator:
         for r in raw_combined_output["reviews"]:
             r_copy = dict(r)
             if "reviewer_name" in r_copy:
-                r_copy["reviewer_name"] = "[MASKED]"
+                r_copy["reviewer_name"] = r.get("reviewer_name", "[UNKNOWN]")
             masked_reviews.append(r_copy)
             
         raw_combined_output["reviews"] = masked_reviews
