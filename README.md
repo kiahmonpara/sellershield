@@ -157,7 +157,7 @@ graph LR
 ## Setup Instructions
 ```bash
 # 1. Clone
-git clone https://github.com/[YOUR_USERNAME]/sellershield
+git clone https://github.com/kiahmonpara/sellershield.git
 cd sellershield
 
 # 2. Backend
@@ -177,9 +177,9 @@ agents-cli eval run
 ```
 
 ## Live Demo
-- **Frontend**: [https://sellershield-frontend.vercel.app](https://sellershield-frontend.vercel.app)
+- **Frontend**: [https://sellershield.vercel.app/](https://sellershield.vercel.app/)
 - **API**: [https://sellershield-backend.onrender.com](https://sellershield-backend.onrender.com)
-- **GitHub**: [https://github.com/[YOUR_USERNAME]/sellershield](https://github.com/[YOUR_USERNAME]/sellershield)
+- **GitHub**: [https://github.com/kiahmonpara/sellershield](https://github.com/kiahmonpara/sellershield)
 
 ## Eval Results
 ```
