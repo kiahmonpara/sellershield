@@ -1,0 +1,26 @@
+{
+  "flagged_customers": [
+    {
+      "customer_id": "C004",
+      "customer_name": "[MASKED]",
+      "risk_score": 70,
+      "risk_level": "HIGH_RISK",
+      "signals_triggered": [
+        "serial_returner",
+        "identity_ring",
+        "policy_exploit"
+      ],
+      "evidence": {
+        "return_count": 6,
+        "return_window_days": 15,
+        "total_return_value_inr": 17700.0,
+        "platforms_abused": [
+          "Meesho",
+          "Flipkart",
+          "Amazon"
+        ]
+      }
+    }
+  ],
+  "total_claim_value_inr": 17700.0
+}

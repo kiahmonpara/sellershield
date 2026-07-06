@@ -1,0 +1,32 @@
+{
+  "fraud": [
+    {
+      "customer_id": "C004",
+      "risk_level": "HIGH_RISK",
+      "score": 70
+    }
+  ],
+  "reviews": [],
+  "pricing": [
+    {
+      "product_id": "PROD-A",
+      "undercut": true,
+      "price_gap_pct": 0.1
+    },
+    {
+      "product_id": "PROD-C",
+      "undercut": true,
+      "price_gap_pct": 9.1
+    },
+    {
+      "product_id": "PROD-E",
+      "undercut": true,
+      "price_gap_pct": 2.6
+    },
+    {
+      "product_id": "PROD-F",
+      "undercut": true,
+      "price_gap_pct": 1.5
+    }
+  ]
+}

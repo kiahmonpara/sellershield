@@ -1,0 +1,956 @@
+[
+  {
+    "scan_date": "2026-06-30",
+    "scan_id": "scan_001",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2510,
+          "RunRight": 2520,
+          "FlexFoot": 2540
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 385,
+          "RunRight": 395,
+          "FlexFoot": 410
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 580,
+          "RunRight": 590,
+          "FlexFoot": 610
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 155,
+          "RunRight": 165,
+          "FlexFoot": 180
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1910,
+          "RunRight": 1920,
+          "FlexFoot": 1940
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3310,
+          "RunRight": 3320,
+          "FlexFoot": 3340
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-01",
+    "scan_id": "scan_002",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2505,
+          "RunRight": 2515,
+          "FlexFoot": 2545
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 382,
+          "RunRight": 392,
+          "FlexFoot": 412
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 570,
+          "RunRight": 585,
+          "FlexFoot": 605
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 153,
+          "RunRight": 163,
+          "FlexFoot": 183
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1895,
+          "RunRight": 1915,
+          "FlexFoot": 1945
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3290,
+          "RunRight": 3310,
+          "FlexFoot": 3330
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-02",
+    "scan_id": "scan_003",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2500,
+          "RunRight": 2512,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 380,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 560,
+          "RunRight": 579,
+          "FlexFoot": 599
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 152,
+          "RunRight": 168,
+          "FlexFoot": 189
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1880,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3275,
+          "RunRight": 3295,
+          "FlexFoot": 3320
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-03",
+    "scan_id": "scan_004",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2498,
+          "RunRight": 2510,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 379,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 555,
+          "RunRight": 575,
+          "FlexFoot": 589
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 151,
+          "RunRight": 168,
+          "FlexFoot": 199
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1870,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3265,
+          "RunRight": 3290,
+          "FlexFoot": 3310
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-04",
+    "scan_id": "scan_005",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2497,
+          "RunRight": 2510,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 379,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 550,
+          "RunRight": 569,
+          "FlexFoot": 579
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 151,
+          "RunRight": 168,
+          "FlexFoot": 199
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1860,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3255,
+          "RunRight": 3280,
+          "FlexFoot": 3300
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-05",
+    "scan_id": "scan_006",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2497,
+          "RunRight": 2510,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 379,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 549,
+          "RunRight": 569,
+          "FlexFoot": 579
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 151,
+          "RunRight": 168,
+          "FlexFoot": 199
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1850,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3250,
+          "RunRight": 3280,
+          "FlexFoot": 3300
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_007",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2497,
+          "RunRight": 2510,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 379,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 549,
+          "RunRight": 569,
+          "FlexFoot": 579
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 151,
+          "RunRight": 168,
+          "FlexFoot": 199
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1850,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3250,
+          "RunRight": 3280,
+          "FlexFoot": 3300
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_008",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2497,
+          "RunRight": 2510,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 379,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 549,
+          "RunRight": 569,
+          "FlexFoot": 579
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 151,
+          "RunRight": 168,
+          "FlexFoot": 199
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1850,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3250,
+          "RunRight": 3280,
+          "FlexFoot": 3300
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_009",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2497,
+          "RunRight": 2510,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 379,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 549,
+          "RunRight": 569,
+          "FlexFoot": 579
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 151,
+          "RunRight": 168,
+          "FlexFoot": 199
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1850,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3250,
+          "RunRight": 3280,
+          "FlexFoot": 3300
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_010",
+    "products": [
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "InsolePro": 549
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_011",
+    "products": [
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "CleanShine": 379
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_012",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 899,
+        "competitors": {
+          "SportyFit": 897
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_013",
+    "products": [
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "InsolePro": 549
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_014",
+    "products": [
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "CleanShine": 379
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_015",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 899,
+        "competitors": {
+          "SportyFit": 897
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_016",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2497,
+          "RunRight": 2510,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 379,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 549,
+          "RunRight": 569,
+          "FlexFoot": 579
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 151,
+          "RunRight": 168,
+          "FlexFoot": 199
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1850,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3250,
+          "RunRight": 3280,
+          "FlexFoot": 3300
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_017",
+    "products": [
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "InsolePro": 549
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_018",
+    "products": [
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "CleanShine": 379
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_019",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 899,
+        "competitors": {
+          "SportyFit": 897
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_020",
+    "products": [
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "InsolePro": 549
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_021",
+    "products": [
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "CleanShine": 379
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_022",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 899,
+        "competitors": {
+          "SportyFit": 897
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_023",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2497,
+          "RunRight": 2510,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 379,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 549,
+          "RunRight": 569,
+          "FlexFoot": 579
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 151,
+          "RunRight": 168,
+          "FlexFoot": 199
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1850,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3250,
+          "RunRight": 3280,
+          "FlexFoot": 3300
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_024",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 2499,
+        "competitors": {
+          "SpeedStep": 2497,
+          "RunRight": 2510,
+          "FlexFoot": 2550
+        }
+      },
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "SpeedStep": 379,
+          "RunRight": 399,
+          "FlexFoot": 420
+        }
+      },
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "SpeedStep": 549,
+          "RunRight": 569,
+          "FlexFoot": 579
+        }
+      },
+      {
+        "product_id": "PROD-D",
+        "seller_price": 149,
+        "competitors": {
+          "SpeedStep": 151,
+          "RunRight": 168,
+          "FlexFoot": 199
+        }
+      },
+      {
+        "product_id": "PROD-E",
+        "seller_price": 1899,
+        "competitors": {
+          "SpeedStep": 1850,
+          "RunRight": 1920,
+          "FlexFoot": 1950
+        }
+      },
+      {
+        "product_id": "PROD-F",
+        "seller_price": 3299,
+        "competitors": {
+          "SpeedStep": 3250,
+          "RunRight": 3280,
+          "FlexFoot": 3300
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_025",
+    "products": [
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "InsolePro": 549
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_026",
+    "products": [
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "CleanShine": 379
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_027",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 899,
+        "competitors": {
+          "SportyFit": 897
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_028",
+    "products": [
+      {
+        "product_id": "PROD-C",
+        "seller_price": 599,
+        "competitors": {
+          "InsolePro": 549
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_029",
+    "products": [
+      {
+        "product_id": "PROD-B",
+        "seller_price": 349,
+        "competitors": {
+          "CleanShine": 379
+        }
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_id": "scan_030",
+    "products": [
+      {
+        "product_id": "PROD-A",
+        "seller_price": 899,
+        "competitors": {
+          "SportyFit": 897
+        }
+      }
+    ]
+  }
+]

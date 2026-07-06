@@ -1,0 +1,146 @@
+[
+  {
+    "product_id": "PROD-A",
+    "name": "Elite Runner Pro",
+    "category": "Running Shoes",
+    "seller_price_inr": 2499,
+    "platform": "Amazon",
+    "competitors": [
+      {
+        "competitor_name": "SpeedStep",
+        "price_inr": 2497,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "RunRight",
+        "price_inr": 2510,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "FlexFoot",
+        "price_inr": 2550,
+        "last_updated": "2026-07-06"
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-B",
+    "name": "StrideClean Spray",
+    "category": "Shoe Care",
+    "seller_price_inr": 349,
+    "platform": "Amazon",
+    "competitors": [
+      {
+        "competitor_name": "SpeedStep",
+        "price_inr": 379,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "RunRight",
+        "price_inr": 399,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "FlexFoot",
+        "price_inr": 420,
+        "last_updated": "2026-07-06"
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-C",
+    "name": "OrthoPro Insoles",
+    "category": "Shoe Accessories",
+    "seller_price_inr": 599,
+    "platform": "Flipkart",
+    "competitors": [
+      {
+        "competitor_name": "SpeedStep",
+        "price_inr": 549,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "RunRight",
+        "price_inr": 569,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "FlexFoot",
+        "price_inr": 579,
+        "last_updated": "2026-07-06"
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-D",
+    "name": "LaceUp Reflective Laces",
+    "category": "Shoe Accessories",
+    "seller_price_inr": 149,
+    "platform": "Flipkart",
+    "competitors": [
+      {
+        "competitor_name": "SpeedStep",
+        "price_inr": 151,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "RunRight",
+        "price_inr": 168,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "FlexFoot",
+        "price_inr": 199,
+        "last_updated": "2026-07-06"
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-E",
+    "name": "CloudWalk Sneakers",
+    "category": "Sneakers",
+    "seller_price_inr": 1899,
+    "platform": "Myntra",
+    "competitors": [
+      {
+        "competitor_name": "SpeedStep",
+        "price_inr": 1850,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "RunRight",
+        "price_inr": 1920,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "FlexFoot",
+        "price_inr": 1950,
+        "last_updated": "2026-07-06"
+      }
+    ]
+  },
+  {
+    "product_id": "PROD-F",
+    "name": "TrailBlazer Hiking Shoes",
+    "category": "Hiking Shoes",
+    "seller_price_inr": 3299,
+    "platform": "Meesho",
+    "competitors": [
+      {
+        "competitor_name": "SpeedStep",
+        "price_inr": 3250,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "RunRight",
+        "price_inr": 3280,
+        "last_updated": "2026-07-06"
+      },
+      {
+        "competitor_name": "FlexFoot",
+        "price_inr": 3300,
+        "last_updated": "2026-07-06"
+      }
+    ]
+  }
+]

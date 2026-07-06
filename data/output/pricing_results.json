@@ -1,0 +1,267 @@
+{
+  "products": [
+    {
+      "product_id": "PROD-A",
+      "name": "Elite Runner Pro",
+      "category": "Running Shoes",
+      "seller_price_inr": 2499,
+      "platform": "Amazon",
+      "competitors": [
+        {
+          "competitor_name": "SpeedStep",
+          "price_inr": 2497,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "RunRight",
+          "price_inr": 2510,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "FlexFoot",
+          "price_inr": 2550,
+          "last_updated": "2026-07-06"
+        }
+      ],
+      "monitor_events": [
+        "being_undercut",
+        "systematic_undercut"
+      ],
+      "analysis": {
+        "price_position": "mid_range",
+        "price_gap_inr": 2,
+        "price_gap_pct": 0.1,
+        "undercutting_detected": true,
+        "undercutting_competitor": "SpeedStep",
+        "price_war_active": false,
+        "psychological_threshold": false
+      },
+      "strategy": {
+        "recommended_price_inr": 2496,
+        "strategy": "Compete",
+        "urgency": "MONITOR",
+        "rationale": "Systematic undercutting detected by SpeedStep. Match or price \u20b91 below at INR 2496.",
+        "estimated_margin_impact": -0.1
+      }
+    },
+    {
+      "product_id": "PROD-B",
+      "name": "StrideClean Spray",
+      "category": "Shoe Care",
+      "seller_price_inr": 349,
+      "platform": "Amazon",
+      "competitors": [
+        {
+          "competitor_name": "SpeedStep",
+          "price_inr": 379,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "RunRight",
+          "price_inr": 399,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "FlexFoot",
+          "price_inr": 420,
+          "last_updated": "2026-07-06"
+        }
+      ],
+      "monitor_events": [
+        "cheapest_in_category"
+      ],
+      "analysis": {
+        "price_position": "cheapest",
+        "price_gap_inr": -30,
+        "price_gap_pct": -7.9,
+        "undercutting_detected": false,
+        "undercutting_competitor": null,
+        "price_war_active": false,
+        "psychological_threshold": false
+      },
+      "strategy": {
+        "recommended_price_inr": 349,
+        "strategy": "Premium",
+        "urgency": "STABLE",
+        "rationale": "You are currently the cheapest seller in the Shoe Care category. Maintain pricing to secure margins.",
+        "estimated_margin_impact": 0.0
+      }
+    },
+    {
+      "product_id": "PROD-C",
+      "name": "OrthoPro Insoles",
+      "category": "Shoe Accessories",
+      "seller_price_inr": 599,
+      "platform": "Flipkart",
+      "competitors": [
+        {
+          "competitor_name": "SpeedStep",
+          "price_inr": 549,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "RunRight",
+          "price_inr": 569,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "FlexFoot",
+          "price_inr": 579,
+          "last_updated": "2026-07-06"
+        }
+      ],
+      "monitor_events": [
+        "being_undercut",
+        "systematic_undercut",
+        "price_war"
+      ],
+      "analysis": {
+        "price_position": "expensive",
+        "price_gap_inr": 50,
+        "price_gap_pct": 9.1,
+        "undercutting_detected": true,
+        "undercutting_competitor": "SpeedStep",
+        "price_war_active": true,
+        "psychological_threshold": false
+      },
+      "strategy": {
+        "recommended_price_inr": 549,
+        "strategy": "Compete",
+        "urgency": "ACT_NOW",
+        "rationale": "Active price war detected. Lower price to INR 549 to maintain store visibility.",
+        "estimated_margin_impact": -8.3
+      }
+    },
+    {
+      "product_id": "PROD-D",
+      "name": "LaceUp Reflective Laces",
+      "category": "Shoe Accessories",
+      "seller_price_inr": 149,
+      "platform": "Flipkart",
+      "competitors": [
+        {
+          "competitor_name": "SpeedStep",
+          "price_inr": 151,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "RunRight",
+          "price_inr": 168,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "FlexFoot",
+          "price_inr": 199,
+          "last_updated": "2026-07-06"
+        }
+      ],
+      "monitor_events": [
+        "cheapest_in_category"
+      ],
+      "analysis": {
+        "price_position": "cheapest",
+        "price_gap_inr": -2,
+        "price_gap_pct": -1.3,
+        "undercutting_detected": false,
+        "undercutting_competitor": null,
+        "price_war_active": false,
+        "psychological_threshold": false
+      },
+      "strategy": {
+        "recommended_price_inr": 149,
+        "strategy": "Premium",
+        "urgency": "STABLE",
+        "rationale": "You are currently the cheapest seller in the Shoe Accessories category. Maintain pricing to secure margins.",
+        "estimated_margin_impact": 0.0
+      }
+    },
+    {
+      "product_id": "PROD-E",
+      "name": "CloudWalk Sneakers",
+      "category": "Sneakers",
+      "seller_price_inr": 1899,
+      "platform": "Myntra",
+      "competitors": [
+        {
+          "competitor_name": "SpeedStep",
+          "price_inr": 1850,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "RunRight",
+          "price_inr": 1920,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "FlexFoot",
+          "price_inr": 1950,
+          "last_updated": "2026-07-06"
+        }
+      ],
+      "monitor_events": [
+        "being_undercut",
+        "systematic_undercut"
+      ],
+      "analysis": {
+        "price_position": "mid_range",
+        "price_gap_inr": 49,
+        "price_gap_pct": 2.6,
+        "undercutting_detected": true,
+        "undercutting_competitor": "SpeedStep",
+        "price_war_active": false,
+        "psychological_threshold": false
+      },
+      "strategy": {
+        "recommended_price_inr": 1849,
+        "strategy": "Compete",
+        "urgency": "MONITOR",
+        "rationale": "Systematic undercutting detected by SpeedStep. Match or price \u20b91 below at INR 1849.",
+        "estimated_margin_impact": -2.6
+      }
+    },
+    {
+      "product_id": "PROD-F",
+      "name": "TrailBlazer Hiking Shoes",
+      "category": "Hiking Shoes",
+      "seller_price_inr": 3299,
+      "platform": "Meesho",
+      "competitors": [
+        {
+          "competitor_name": "SpeedStep",
+          "price_inr": 3250,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "RunRight",
+          "price_inr": 3280,
+          "last_updated": "2026-07-06"
+        },
+        {
+          "competitor_name": "FlexFoot",
+          "price_inr": 3300,
+          "last_updated": "2026-07-06"
+        }
+      ],
+      "monitor_events": [
+        "being_undercut",
+        "systematic_undercut"
+      ],
+      "analysis": {
+        "price_position": "mid_range",
+        "price_gap_inr": 49,
+        "price_gap_pct": 1.5,
+        "undercutting_detected": true,
+        "undercutting_competitor": "SpeedStep",
+        "price_war_active": false,
+        "psychological_threshold": false
+      },
+      "strategy": {
+        "recommended_price_inr": 3249,
+        "strategy": "Compete",
+        "urgency": "MONITOR",
+        "rationale": "Systematic undercutting detected by SpeedStep. Match or price \u20b91 below at INR 3249.",
+        "estimated_margin_impact": -1.5
+      }
+    }
+  ]
+}

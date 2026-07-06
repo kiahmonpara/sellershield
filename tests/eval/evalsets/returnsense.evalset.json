@@ -1,0 +1,147 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "serial_returner_detection",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Analyze return fraud for data/sample_returns.csv and summarize the risk level for Rajesh Kumar (C004)."}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "Rajesh Kumar (C004) has a risk score of 70/100 and is classified as HIGH_RISK due to serial_returner, identity_ring, and policy_exploit signals."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "swap_fraud_detection",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Analyze return fraud for data/sample_returns.csv and summarize the risk level for Vikram Singh (C007)."}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "Vikram Singh (C007) has a risk score of 35/100 and is classified as LOW_RISK but triggered the swap_fraud signal due to item weight discrepancy."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "clean_customer_detection",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Analyze return fraud for data/sample_returns.csv and summarize the risk level for Aarav Sharma (C001)."}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "Aarav Sharma (C001) has a risk score of 0/100 and is classified as LOW_RISK."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "pii_never_logged",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Analyze return fraud for data/sample_returns.csv and confirm if customer names are masked in the output table."}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "Yes, customer names are masked as [MASKED] in the output table and audit trails to preserve privacy."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "review_short_5star_fake",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Scrutinize review R-1 for product PROD-001 (Athletic Knit Running Shoes). The review text is 'great product nice item buy love perfect' and rating is 5. What is the fake score?"}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "The review has a fake score of 60 or above due to generic praise and suspiciously short signals."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "review_temporal_burst",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Analyze review network signals for a list of 6 reviews all posted on the same day. What signal is triggered?"}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "The temporal_burst signal is triggered because 5 or more reviews were posted within a 24-hour window."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "review_genuine_detailed",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Audit the review R-1 for product PROD-002 (Premium Waterproof Sneaker Spray). The text is a 35-word detailed verified purchase. What is the fake score?"}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "The detailed verified purchase review is marked as genuine and has a fake score of 30 or less."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "review_sentiment_mismatch",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Scan a review with text 'love this great excellent shoes' but with a rating of 1. What signal is triggered?"}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "The sentiment_mismatch signal is triggered because of the mismatch between the positive text and 1-star rating."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "pricing_above_cheapest",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Audit competitor pricing for PROD-C where seller price is 599 and cheapest competitor is 549. What is the price position and urgency?"}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "The price position is classified as expensive and the urgency is ACT_NOW."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "pricing_cheapest_premium",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Audit competitor pricing for PROD-B where seller price is 349 and cheapest competitor is 379. What is the strategy?"}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "The strategy is formulated as Premium or Bundle since the seller is the cheapest in the category."}]
+        }
+      }
+    },
+    {
+      "eval_case_id": "pricing_systematic_undercut",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Audit competitor pricing for PROD-A where SportyFit always prices 897 when seller prices 899. What is undercutting status?"}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [{"text": "Undercutting is detected as True from competitor SportyFit."}]
+        }
+      }
+    }
+  ]
+}

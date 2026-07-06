@@ -1,0 +1,23 @@
+### RETURN DISCREPANCY & LOSS CLAIM
+**Date**: 2026-07-06
+**Claim Reference**: ORD005
+**Platform**: Flipkart
+**Customer Identifier**: [MASKED] (C004)
+
+#### Summary of Issue:
+We are claiming compensation for a return shipment discrepancy. The returned package does not match the original goods dispatched.
+
+#### Detailed Evidence:
+- **Discrepancy Type**: Serial returns and COD policy abuse
+- **Returned Items Log**:
+  - Item ITM007 (Elite Runner Pro): Outbound weight 500.0g, Returned weight 500.0g. Reason: Sole Defect
+- **Total original weight shipped**: 500.0g
+- **Total weight returned**: 500.0g
+- **Total Weight Loss/Delta**: 0.0g (0.0%)
+
+#### Risk Analysis Metrics:
+- **Return fraud score**: 70/100
+- **Identified Risk Vectors**: Serial Returner, Identity Ring, Policy Exploit
+- **Total return frequency (past 30d)**: 6
+
+Please review the attached evidence dossier and process the reimbursement.

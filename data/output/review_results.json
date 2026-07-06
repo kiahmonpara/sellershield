@@ -1,0 +1,31 @@
+{
+  "products": {
+    "PROD-001": {
+      "product_title": "Elite Runner Pro",
+      "verdict": "TRUSTWORTHY",
+      "overall_authenticity_score": 87,
+      "displayed_rating": 4.6,
+      "adjusted_rating": 4.6,
+      "fake_review_count": 0,
+      "genuine_review_count": 5
+    },
+    "PROD-002": {
+      "product_title": "StrideClean Spray",
+      "verdict": "TRUSTWORTHY",
+      "overall_authenticity_score": 90,
+      "displayed_rating": 4.7,
+      "adjusted_rating": 4.7,
+      "fake_review_count": 0,
+      "genuine_review_count": 3
+    },
+    "PROD-003": {
+      "product_title": "OrthoPro Insoles",
+      "verdict": "TRUSTWORTHY",
+      "overall_authenticity_score": 90,
+      "displayed_rating": 4.5,
+      "adjusted_rating": 4.5,
+      "fake_review_count": 0,
+      "genuine_review_count": 2
+    }
+  }
+}
